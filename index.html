@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BDD PERSONNES</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div id="page">
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">TABLEAUX PERSONNES</span>
+    </nav>
+<div id="table-container"></div>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">FORMULAIRE PERSONNE</span>
+    </nav>
+    <form id="add_form" name="add_form">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <div class="form-group  mb-2">
+                        <label for="last_name">Nom</label><br>
+                        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="vôtre nom">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group mb-2">
+                        <label for="first_name">Prénom</label>
+                        <input type="text" class="form-control" id="first_name" name="first_name" placeholder="vôtre prénom">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-lg-2">
+                <div class="form-group mb-2">
+                    <label for="gender">Sexe</label>
+                    <select class="form-control" id="gender" name="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+
+                    </select>
+                </div>
+                </div>
+            </div>
+        </div>
+        <button  class="btn btn-dark">Ok</button>
+    </form>
+
+</div>
+</body>
+</html>
